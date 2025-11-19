@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sixt Car Offers App
 
 ## Used Version
@@ -51,3 +52,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+=======
+# sca-caroffer
+>>>>>>> e5ecaf9879f32f09518c180b7388a20c7aca9f10
