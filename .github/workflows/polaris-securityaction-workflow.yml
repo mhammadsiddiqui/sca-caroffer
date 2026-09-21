@@ -54,7 +54,8 @@ jobs:
         # github_token: ${{ secrets.GITHUB_TOKEN }} # Required when polaris_upload_sarif_report is set as true
 
         ### Mark build status if policy violating issues are found
-        mark_build_status: 'success'
+        #mark_build_status: 'success'
+        mark_build_status: 'failed'
 
         ### Signature scan
         polaris_test_sca_type: 'SCA-SIGNATURE'
@@ -80,7 +81,7 @@ jobs:
         # polaris_test_sast_location: 'local'
 
         ### Uncomment below to add arbitrary CL parameters
-        detect_search_depth: 2
+        detect_search_depth: 10
         detect_args: '--detect.diagnostic=false --detect.accuracy.required=NONE'
         # detect_config_path: '/Users/Config/application.properties'
         # coverity_build_command: mvn clean install
