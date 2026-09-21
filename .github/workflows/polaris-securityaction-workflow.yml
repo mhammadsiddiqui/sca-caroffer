@@ -1,4 +1,4 @@
-name: CI-Polaris
+name: polaris-securityaction
 on:
   push:
     branches: [main]
