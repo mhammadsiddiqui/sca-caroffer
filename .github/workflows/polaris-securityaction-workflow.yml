@@ -81,7 +81,7 @@ jobs:
 
         ### Uncomment below to add arbitrary CL parameters
         detect_search_depth: 2
-        # detect_args: '--detect.diagnostic=true'
+        detect_args: '--detect.diagnostic=false --detect.accuracy.required=NONE'
         # detect_config_path: '/Users/Config/application.properties'
         # coverity_build_command: mvn clean install
         # coverity_clean_command: mvn clean
